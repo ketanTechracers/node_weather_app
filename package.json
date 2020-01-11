@@ -1,0 +1,20 @@
+{
+  "name": "my-node-weather-app",
+  "version": "1.0.0",
+  "description": "App exposing API for weather information",
+  "main": "(server.js)",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Ketan Saxena",
+  "license": "ISC",
+  "dependencies": {
+    "basic-authorization-header": "^0.2.7",
+    "body-parser": "^1.18.0",
+    "express": "^4.15.4",
+    "moment": "^2.18.1",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1"
+  }
+}
