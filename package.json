@@ -12,6 +12,7 @@
   "dependencies": {
     "basic-authorization-header": "^0.2.7",
     "body-parser": "^1.18.0",
+    "ejs": "^2.5.7",
     "express": "^4.15.4",
     "moment": "^2.18.1",
     "request": "^2.81.0",
