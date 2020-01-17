@@ -56,7 +56,7 @@ function getWeatherForDuration(params, res) {
 
 function getWeatherForDay (params, res) {
   const city = params['geo-city'] || 'indore';
-  const date = params.date || moment.format('YYYY-MM-DD');
+  const date = params.date || moment().format('YYYY-MM-DD');
   let givenDate = params.date ? moment(params.date, 'YYYY-MM-DD') : moment();
   let now = moment();
   let endpoint = API.weatherForecast;
